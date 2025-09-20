@@ -26,6 +26,9 @@ On macOS the app uses AppleScript to open Terminal.app and run the resume comman
 invokes PowerShell to launch a new `cmd.exe` window. Ensure the Codex CLI binary is discoverable from
 those shells.
 
+## Example screenshot
+![Codex Session Manager preview](assets/session-manager-preview.png)
+
 ## Packaging
 For distribution, use the platform packaging guides for `eframe` applications (e.g., `cargo bundle`
 or platform-native bundlers). The project currently focuses on development builds.
