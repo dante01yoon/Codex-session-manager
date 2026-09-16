@@ -7,8 +7,8 @@ edition = "2021"
 anyhow = "1"
 chrono = { version = "0.4", features = ["serde"] }
 dirs-next = "2"
-eframe = { version = "0.27" }
-egui = "0.27"
+gpui = "0.2.2"
+gpui-component = "0.5.1"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 walkdir = "2"
